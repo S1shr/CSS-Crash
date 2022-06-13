@@ -1,0 +1,149 @@
+/* '*' means everything 
+*{
+    margin:0;
+    padding: 0;
+}
+*/
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+
+  font: normal 16px Verdana, Geneva, Tahoma, sans-serif;
+
+  line-height: 1.6em;
+  margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px
+}
+
+.clr{
+    clear:both;
+}
+
+.box-1 {
+  color: #555555;
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  
+  padding: 20px;
+
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: Tohoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.box-2{
+    border:3px dotted blue;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 2px dotted red;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom:8px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/check.png')
+}
+
+.myform{
+    padding:20px
+}
+
+.myform .form-group{
+    padding-bottom:15px;
+}
+
+.myform label{
+    display:block;
+}
+
+.myform input[type="text"], .myform textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float:left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+}
+
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
